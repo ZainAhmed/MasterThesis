@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.5.1)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - SwiftyJSON (4.3.0)
+  - TextFieldEffects (1.6.0)
+  - WWCalendarTimeSelector (1.4.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.0)
+  - GoogleMaps (= 3.7.0)
+  - GooglePlaces
+  - SwiftyJSON (~> 4.0)
+  - TextFieldEffects
+  - WWCalendarTimeSelector (from `https://github.com/weilsonwonder/WWCalendarTimeSelector.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - SwiftyJSON
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  WWCalendarTimeSelector:
+    :branch: master
+    :git: https://github.com/weilsonwonder/WWCalendarTimeSelector.git
+
+CHECKOUT OPTIONS:
+  WWCalendarTimeSelector:
+    :commit: 0fc6bcce08ec997ca387dec29c071b32efbe33f7
+    :git: https://github.com/weilsonwonder/WWCalendarTimeSelector.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+  WWCalendarTimeSelector: 72f4247c2b3be016f2a5296cad4ec42d50910967
+
+PODFILE CHECKSUM: 64ad39d0b5bd6b44c0978c6ed3f06c6b890ac823
+
+COCOAPODS: 1.5.3
